@@ -1,0 +1,5 @@
+lata= int (input("quantas latas de 350 ml?"))
+g1 = int (input("quantas garrafas de 600ml?"))
+g2= int (input("quantas garrafas de dois litros?"))
+litros = (lata*0.350) + (g1* 0.600) + (g2*2)
+print ("Você adquiriu", litros, "litros")
